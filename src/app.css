@@ -1,0 +1,21 @@
+
+:root {
+    --background: #fffff9;
+    --accent: #b48815;
+    --secondary: rgb(255, 241, 214);
+}
+
+
+body {
+    margin: 0;
+    font-family: "Merriweather", sans-serif;
+    font-size: 16px;
+    background-color: var(--background);
+}
+
+button {
+    appearance: none;
+    font-family: inherit;
+    font-size: inherit;
+    background-color: transparent;
+}

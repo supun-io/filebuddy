@@ -34,6 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/merriweather": "^5.0.12",
 		"@tauri-apps/api": "^1.5.3"
 	}
 }

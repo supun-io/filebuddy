@@ -1,6 +1,10 @@
-<script>
-	import Greet from './Greet.svelte';
+<script lang="ts">
+	import Selector from './Selector.svelte';
+	import { selectedFile } from './stores';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<Greet />
+{#if $selectedFile}
+	Selected file: {$selectedFile}
+{:else}
+	<Selector />
+{/if}
